@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.files        = Dir['LICENSE', 'README.md', 'app/**/*', 'config/**/*', 'lib/**/*', 'db/**/*', 'vendor/**/*']
   s.require_path = 'lib'
 
+  s.add_dependency 'responders', '~> 2.0'
   s.add_dependency 'activemerchant', '~> 1.44.1'
   s.add_dependency 'acts_as_list', '~> 0.5.0'
   s.add_dependency 'awesome_nested_set', '~> 3.0.1'
@@ -42,8 +43,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'stringex'
   s.add_dependency 'truncate_html', '0.9.2'
   s.add_dependency 'twitter_cldr', '~> 3.0'
-  s.add_dependency 'responders', '~> 2.0'
 
   s.add_development_dependency 'email_spec', '~> 1.6'
+  s.add_development_dependency 'responders', '~> 2.0'
 
 end
